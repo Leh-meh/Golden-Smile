@@ -77,11 +77,14 @@ export function About() {
             </h2>
             
             <p className="font-body text-lg text-muted-foreground mb-8 leading-relaxed">
-              Com mais de uma década dedicada à odontologia estética, na Golden Smile acreditamos que um sorriso bonito vai muito além da aparência — ele reflete confiança, bem-estar e qualidade de vida.
+              Com mais de uma década dedicada à odontologia estética, na Golden Smile acreditamos que git init
+um sorriso bonito vai muito além da aparência — ele reflete confiança, bem-estar e qualidade de vida.
             </p>
             
             <p className="font-body text-muted-foreground mb-10 leading-relaxed">
-              Nossa equipe é formada por especialistas com treinamento nas melhores instituições do Brasil e do exterior, sempre atualizados com técnicas avançadas e seguras, garantindo resultados naturais, harmoniosos e personalizados para cada paciente.
+              Nossa equipe é formada por especialistas com treinamento nas melhores instituições do Brasil e do exterior, sempre atualizados com técnicas avançadas e seguras, garantindo resultados naturais, harmoniosos e personalizados para cada paciente.npm run deploy
+
+
             </p>
 
             {/* Highlights */}
