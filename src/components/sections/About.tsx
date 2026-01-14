@@ -41,7 +41,7 @@ export function About() {
               {/* Gold frame decoration */}
               <div className="absolute -inset-4 border-2 border-primary/30 rounded-lg" />
               <div className="absolute -inset-8 border border-primary/10 rounded-lg" />
-              
+
               {/* Image */}
               <div className="relative h-full w-full overflow-hidden rounded-lg">
                 <img
@@ -58,7 +58,9 @@ export function About() {
                 transition={{ duration: 0.6, delay: 0.4 }}
                 className="absolute -right-6 -bottom-6 bg-primary text-primary-foreground p-6 rounded-lg shadow-gold"
               >
-                <span className="block font-display text-4xl font-semibold">+10</span>
+                <span className="block font-display text-4xl font-semibold">
+                  +10
+                </span>
                 <span className="text-sm font-body">anos</span>
               </motion.div>
             </div>
@@ -71,20 +73,22 @@ export function About() {
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
           >
             <div className="gold-divider-left mb-6" />
-            
+
             <h2 className="font-display text-4xl md:text-5xl font-medium text-foreground mb-6">
-             Golden Smile
+              Golden Smile
             </h2>
-            
+
             <p className="font-body text-lg text-muted-foreground mb-8 leading-relaxed">
-              Com mais de uma década dedicada à odontologia estética, na Golden Smile acreditamos que git init
-um sorriso bonito vai muito além da aparência — ele reflete confiança, bem-estar e qualidade de vida.
+              Com mais de uma década dedicada à odontologia estética, na Golden
+              Smile acreditamos que um sorriso bonito vai muito além da
+              aparência — ele reflete confiança, bem-estar e qualidade de vida.
             </p>
-            
+
             <p className="font-body text-muted-foreground mb-10 leading-relaxed">
-              Nossa equipe é formada por especialistas com treinamento nas melhores instituições do Brasil e do exterior, sempre atualizados com técnicas avançadas e seguras, garantindo resultados naturais, harmoniosos e personalizados para cada paciente.npm run deploy
-
-
+              Nossa equipe é formada por especialistas com treinamento nas
+              melhores instituições do Brasil e do exterior, sempre atualizados
+              com técnicas avançadas e seguras, garantindo resultados naturais,
+              harmoniosos e personalizados para cada paciente.
             </p>
 
             {/* Highlights */}
